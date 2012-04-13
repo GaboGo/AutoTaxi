@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1931FD71538CD7F00C28B2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1931FD61538CD7F00C28B2D /* UIKit.framework */; };
+		F1931FD91538CD7F00C28B2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1931FD81538CD7F00C28B2D /* Foundation.framework */; };
+		F1931FDB1538CD7F00C28B2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1931FDA1538CD7F00C28B2D /* CoreGraphics.framework */; };
+		F1931FDD1538CD7F00C28B2D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1931FDC1538CD7F00C28B2D /* CoreData.framework */; };
+		F1931FE31538CD7F00C28B2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1931FE11538CD7F00C28B2D /* InfoPlist.strings */; };
+		F1931FE51538CD7F00C28B2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1931FE41538CD7F00C28B2D /* main.m */; };
+		F1931FE91538CD7F00C28B2D /* AutoTaxiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1931FE81538CD7F00C28B2D /* AutoTaxiAppDelegate.m */; };
+		F1931FEC1538CD7F00C28B2D /* AutoTaxi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1931FEA1538CD7F00C28B2D /* AutoTaxi.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1931FD21538CD7F00C28B2D /* AutoTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1931FD61538CD7F00C28B2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1931FD81538CD7F00C28B2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1931FDA1538CD7F00C28B2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1931FDC1538CD7F00C28B2D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F1931FE01538CD7F00C28B2D /* AutoTaxi-Info.plist */ = {isa = PBXFileReference; path = "AutoTaxi-Info.plist"; sourceTree = "<group>"; };
+		F1931FE21538CD7F00C28B2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1931FE41538CD7F00C28B2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1931FE61538CD7F00C28B2D /* AutoTaxi-Prefix.pch */ = {isa = PBXFileReference; path = "AutoTaxi-Prefix.pch"; sourceTree = "<group>"; };
+		F1931FE71538CD7F00C28B2D /* AutoTaxiAppDelegate.h */ = {isa = PBXFileReference; path = AutoTaxiAppDelegate.h; sourceTree = "<group>"; };
+		F1931FE81538CD7F00C28B2D /* AutoTaxiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoTaxiAppDelegate.m; sourceTree = "<group>"; };
+		F1931FEB1538CD7F00C28B2D /* AutoTaxi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoTaxi.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1931FCF1538CD7F00C28B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1931FD71538CD7F00C28B2D /* UIKit.framework in Frameworks */,
+				F1931FD91538CD7F00C28B2D /* Foundation.framework in Frameworks */,
+				F1931FDB1538CD7F00C28B2D /* CoreGraphics.framework in Frameworks */,
+				F1931FDD1538CD7F00C28B2D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1931FC71538CD7E00C28B2D = {
+			isa = PBXGroup;
+			children = (
+				F1931FDE1538CD7F00C28B2D /* AutoTaxi */,
+				F1931FD51538CD7F00C28B2D /* Frameworks */,
+				F1931FD31538CD7F00C28B2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1931FD31538CD7F00C28B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1931FD21538CD7F00C28B2D /* AutoTaxi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1931FD51538CD7F00C28B2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1931FD61538CD7F00C28B2D /* UIKit.framework */,
+				F1931FD81538CD7F00C28B2D /* Foundation.framework */,
+				F1931FDA1538CD7F00C28B2D /* CoreGraphics.framework */,
+				F1931FDC1538CD7F00C28B2D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1931FDE1538CD7F00C28B2D /* AutoTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				F1931FE71538CD7F00C28B2D /* AutoTaxiAppDelegate.h */,
+				F1931FE81538CD7F00C28B2D /* AutoTaxiAppDelegate.m */,
+				F1931FEA1538CD7F00C28B2D /* AutoTaxi.xcdatamodeld */,
+				F1931FDF1538CD7F00C28B2D /* Supporting Files */,
+			);
+			path = AutoTaxi;
+			sourceTree = "<group>";
+		};
+		F1931FDF1538CD7F00C28B2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1931FE01538CD7F00C28B2D /* AutoTaxi-Info.plist */,
+				F1931FE11538CD7F00C28B2D /* InfoPlist.strings */,
+				F1931FE41538CD7F00C28B2D /* main.m */,
+				F1931FE61538CD7F00C28B2D /* AutoTaxi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1931FD11538CD7F00C28B2D /* AutoTaxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1931FEF1538CD7F00C28B2D /* Build configuration list for PBXNativeTarget "AutoTaxi" */;
+			buildPhases = (
+				F1931FCE1538CD7F00C28B2D /* Sources */,
+				F1931FCF1538CD7F00C28B2D /* Frameworks */,
+				F1931FD01538CD7F00C28B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoTaxi;
+			productName = AutoTaxi;
+			productReference = F1931FD21538CD7F00C28B2D /* AutoTaxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1931FC91538CD7E00C28B2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Virtual-Tec";
+			};
+			buildConfigurationList = F1931FCC1538CD7E00C28B2D /* Build configuration list for PBXProject "AutoTaxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1931FC71538CD7E00C28B2D;
+			productRefGroup = F1931FD31538CD7F00C28B2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1931FD11538CD7F00C28B2D /* AutoTaxi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1931FD01538CD7F00C28B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1931FE31538CD7F00C28B2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1931FCE1538CD7F00C28B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1931FE51538CD7F00C28B2D /* main.m in Sources */,
+				F1931FE91538CD7F00C28B2D /* AutoTaxiAppDelegate.m in Sources */,
+				F1931FEC1538CD7F00C28B2D /* AutoTaxi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1931FE11538CD7F00C28B2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1931FE21538CD7F00C28B2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1931FED1538CD7F00C28B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1931FEE1538CD7F00C28B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1931FF01538CD7F00C28B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoTaxi/AutoTaxi-Prefix.pch";
+				INFOPLIST_FILE = "AutoTaxi/AutoTaxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1931FF11538CD7F00C28B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoTaxi/AutoTaxi-Prefix.pch";
+				INFOPLIST_FILE = "AutoTaxi/AutoTaxi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1931FCC1538CD7E00C28B2D /* Build configuration list for PBXProject "AutoTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1931FED1538CD7F00C28B2D /* Debug */,
+				F1931FEE1538CD7F00C28B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1931FEF1538CD7F00C28B2D /* Build configuration list for PBXNativeTarget "AutoTaxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1931FF01538CD7F00C28B2D /* Debug */,
+				F1931FF11538CD7F00C28B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1931FEA1538CD7F00C28B2D /* AutoTaxi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1931FEB1538CD7F00C28B2D /* AutoTaxi.xcdatamodel */,
+			);
+			currentVersion = F1931FEB1538CD7F00C28B2D /* AutoTaxi.xcdatamodel */;
+			path = AutoTaxi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1931FC91538CD7E00C28B2D /* Project object */;
+}
